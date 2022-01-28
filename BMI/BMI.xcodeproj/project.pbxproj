@@ -10,6 +10,8 @@
 		003B0E93278817510069CC3B /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 003B0E90278817510069CC3B /* Cairo-Regular.ttf */; };
 		003B0E94278817510069CC3B /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 003B0E91278817510069CC3B /* Cairo-SemiBold.ttf */; };
 		003B0E95278817510069CC3B /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 003B0E92278817510069CC3B /* Cairo-Black.ttf */; };
+		006B7C7C27A3B990006F6542 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B7C7B27A3B990006F6542 /* CalculatorBrain.swift */; };
+		0078CFC4278875CD00DC14AA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078CFC3278875CD00DC14AA /* ResultViewController.swift */; };
 		0099EAF92788034800B7DA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099EAF82788034800B7DA59 /* AppDelegate.swift */; };
 		0099EAFB2788034800B7DA59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099EAFA2788034800B7DA59 /* SceneDelegate.swift */; };
 		0099EAFD2788034800B7DA59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099EAFC2788034800B7DA59 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 		003B0E90278817510069CC3B /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
 		003B0E91278817510069CC3B /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
 		003B0E92278817510069CC3B /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		006B7C7B27A3B990006F6542 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		0078CFC3278875CD00DC14AA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		0099EAF52788034800B7DA59 /* BMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0099EAF82788034800B7DA59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0099EAFA2788034800B7DA59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,31 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		0078CFC02788751900DC14AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0099EAFE2788034800B7DA59 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0078CFC12788753000DC14AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0099EAFC2788034800B7DA59 /* ViewController.swift */,
+				0078CFC3278875CD00DC14AA /* ResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0078CFC22788754B00DC14AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				006B7C7B27A3B990006F6542 /* CalculatorBrain.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0099EAEC2788034800B7DA59 = {
 			isa = PBXGroup;
 			children = (
@@ -72,11 +101,12 @@
 		0099EAF72788034800B7DA59 /* BMI */ = {
 			isa = PBXGroup;
 			children = (
-				003B0E8F2788172D0069CC3B /* Fonts */,
 				0099EAF82788034800B7DA59 /* AppDelegate.swift */,
 				0099EAFA2788034800B7DA59 /* SceneDelegate.swift */,
-				0099EAFC2788034800B7DA59 /* ViewController.swift */,
-				0099EAFE2788034800B7DA59 /* Main.storyboard */,
+				003B0E8F2788172D0069CC3B /* Fonts */,
+				0078CFC22788754B00DC14AA /* Models */,
+				0078CFC02788751900DC14AA /* View */,
+				0078CFC12788753000DC14AA /* Controllers */,
 				0099EB012788034900B7DA59 /* Assets.xcassets */,
 				0099EB032788034900B7DA59 /* LaunchScreen.storyboard */,
 				0099EB062788034900B7DA59 /* Info.plist */,
@@ -160,6 +190,8 @@
 				0099EAFD2788034800B7DA59 /* ViewController.swift in Sources */,
 				0099EAF92788034800B7DA59 /* AppDelegate.swift in Sources */,
 				0099EAFB2788034800B7DA59 /* SceneDelegate.swift in Sources */,
+				006B7C7C27A3B990006F6542 /* CalculatorBrain.swift in Sources */,
+				0078CFC4278875CD00DC14AA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
