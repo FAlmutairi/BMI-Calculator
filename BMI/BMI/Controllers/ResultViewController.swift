@@ -11,9 +11,13 @@ class ResultViewController: UIViewController {
 
     @IBOutlet weak var backgroundInformation: UIView!
     
+    @IBOutlet weak var viewColor: UIView!
     @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var adviceLabel: UILabel!
     
     var bimValue: String?
+    var advice: String?
+    var color: UIColor?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +26,9 @@ class ResultViewController: UIViewController {
         
         backgroundInformation.layer.cornerRadius = 40
         resultLabel.text = bimValue
+        adviceLabel.text = advice
+        viewColor.backgroundColor = color
+        
     }
     
 
